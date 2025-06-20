@@ -23,6 +23,12 @@ A lightweight command-line expense tracker built with Python. Track your daily/m
 
 ---
 
+## 🖥️ Preview
+
+![Preview](https://github.com/user-attachments/assets/80a15bcd-694c-4e02-9237-427b6397ad74)
+
+---
+
 ## ✅ Requirements
 
 - Python 3.x
