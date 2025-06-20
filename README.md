@@ -34,6 +34,7 @@ A lightweight command-line expense tracker built with Python. Track your daily/m
 - Python 3.x
 
 ### 🔧 Install Required Package:
+
 ```bash
 pip install colorama
 ```
@@ -45,27 +46,32 @@ pip install colorama
 Run all commands from your terminal or command prompt:
 
 ### 🟢 Add Expense:
+
 ```bash
 python expense_tracker.py add "Tea" 15
 ```
 
 ### ✏️ Update Expense:
+
 ```bash
 python expense_tracker.py update 2 "Coffee" 30     # updates both description and amount
 python expense_tracker.py update 2 45              # updates only amount
 ```
 
 ### ❌ Delete Expense:
+
 ```bash
 python expense_tracker.py delete 3
 ```
 
 ### 📄 List All Expenses:
+
 ```bash
 python expense_tracker.py list
 ```
 
 ### 📆 Monthly Summary:
+
 ```bash
 python expense_tracker.py summary 6     # For June
 ```
@@ -85,7 +91,8 @@ python expense_tracker.py summary 6     # For June
 
 ---
 
-## 🧾 Example Output
+## 🧾 Example Output:
+
 ```
 ID  Date        Description   Amount
 -----------------------------------------
@@ -100,6 +107,7 @@ Total expenses for month 6: $45.00
 ---
 
 ## 📦 File Structure
+
 ```
 expense_tracker/
 ├── expense_tracker.py
@@ -110,6 +118,7 @@ expense_tracker/
 ---
 
 ## 🧠 Concepts Practiced
+
 - File I/O with CSV
 - CLI command parsing with `sys.argv`
 - Error handling and validation
@@ -119,6 +128,7 @@ expense_tracker/
 ---
 
 ## ✨ Add-On Suggestions
+
 - Add category field to expenses
 - Generate pie/bar chart using matplotlib
 - Export report to PDF
